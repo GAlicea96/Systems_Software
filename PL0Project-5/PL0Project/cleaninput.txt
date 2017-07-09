@@ -1,0 +1,25 @@
+
+var n;
+procedure foo(x, y, z);
+	procedure fact(x);
+	begin
+		if x = 1 then return := 1
+		else return := x*call fact(x - 1)
+	end;
+	begin
+		write y;
+		write z;
+		return := call fact(x)
+	end;
+procedure foo1();
+	var s;
+	begin
+		s := 1;
+		write s
+	end;
+begin
+	read n;
+	write call foo(n, call foo(3, 0, 0), 2);
+	write call foo(n, 2 * n, 3);
+	call foo1()
+end.

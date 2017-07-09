@@ -1,0 +1,84 @@
+
+Error 1: No period at end of file
+
+Error 2: Missing identifier after const
+
+Error 3: Use = instead of :=
+
+Error 4: Const's should be assigned using =
+
+Error 5: = should be followed by number
+
+Error 6: Declaration must end with ;
+
+Error 7: Missing identifier after var
+
+Error 8: Missing identifier after procedure
+
+Error 9: Procedure declaration must end with ;
+
+Error 10: No ; at end of block
+
+Error 11: := missing in statement
+
+Error 12: Missing identifier after call
+
+Error 13: Begin must be closed with end
+
+Error 14: If condition must be followed by then
+
+Error 15: While condition must be followed by do
+
+Error 16: Missing identifier after read
+
+Error 17: Missing identifier after write
+
+Error 18: Relational operator missing in conditional statement
+
+Error 19: Left ( has not been closed
+
+Error 20: Identifier, (, or number expected
+
+Error 21: Attempting to use undeclared identifier
+
+Error 22: := assignment to constant or procedure is not allowed
+
+Error 23: Call to const or var is meaningless
+
+Error 24: Read must be followed by a var
+
+Error 26: Instruction count has exceeded maximum instructions permitted
+
+Error 27: Program ends with ; and not end.
+
+Error 28: Use := instead of =
+
+Error 29: Name is too long (%d characters, max is 11)
+
+Error 30: Name does not start with letter
+
+Error 31: Number is too long (%d digits, max is 5)
+
+Error 32: : is an invalid symbol
+
+Error 33: %c is an invalid symbol
+
+Error 34: Consts, Vars, and Procs must be declared before statements
+
+Error 35: input.txt not found, Compilation process has stopped
+
+Error 36: Identifiers cannot be redeclared in the same scope
+
+Error 37: Procedure must have paramters
+
+Error 38: Identifier expected in procedure's parameter list
+
+Error 39: Missing parameter list at procedure call
+
+Error 40: Bad calling format
+
+Error 41: Missing identifier after call in expression\
+
+Error 42: Attempting to pass too many paramters in procedure call
+
+Error 43: Not enough parameters passed in procedure call

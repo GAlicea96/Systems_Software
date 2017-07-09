@@ -1,0 +1,34 @@
+/*
+*	Write y and write z show that multiple parameter passing does not affect subsequent
+*	procedure calls. fact uses its return value to directly return by decrementing
+*	its parameter, rather than by updating a global variable.
+*
+*	with an input of 4 into n from read, our expected output would be
+*	0 \n 0 \n 6 \n 2 \n 24 \n 8 \n 3 \n 24 \n 1
+*
+*	foo1() shows that empty parameter blocks still work
+*/
+var n;
+procedure foo(x, y, z);
+	procedure fact(x);
+	begin
+		if x = 1 then return := 1
+		else return := x*call fact(x - 1)
+	end;
+	begin
+		write y;
+		write z;
+		return := call fact(x)
+	end;
+procedure foo1();
+	var s;
+	begin
+		s := 1;
+		write s
+	end;
+begin
+	read n;
+	write call foo(n, call foo(3, 0, 0), 2);
+	write call foo(n, 2 * n, 3);
+	call foo1()
+end.
